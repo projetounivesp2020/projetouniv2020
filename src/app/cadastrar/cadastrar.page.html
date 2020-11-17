@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <ion-title>Cadastrar solicitante</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form action="/buscar.page" target="_blank">
+    <label for="fname">Nome:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+    <label for="lname">Sobrenome:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="dtime">Data de nascimento:</label><br>
+    <input type="date" id="dtime" name="dtime" value=""><br><br>
+    <label for="cpfu">Cpf:</label><br>
+    <input type="number" id="cpfu" name="cpfu" value=""><br><br>
+    
+
+    <form>
+      <ion-button (click)="showAlert()" input type="button" value="Cadastrar" onclick="msg()">Cadastrar</ion-button>
+    </form>
+
+    <ion-button  [routerLink]="['/home']">Voltar</ion-button><br><br>
+  </form>
+
+</ion-content>
+

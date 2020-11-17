@@ -1,0 +1,142 @@
+#container {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.btn {
+  
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 2px solid #5cec38;
+  border-radius: 0.7em;
+  color: #060706;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 3;
+  margin: 10px;
+  padding: 1.0em 3.5em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #5cec38 inset;
+
+}
+.btn2 {
+  
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 2px solid #f3f70b;
+  border-radius: 0.7em;
+  color: #060706;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 3;
+  margin: 10px;
+  padding: 1.0em 2.5em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.btn2:hover, .btn2:focus {
+  color: rgb(47, 0, 255);
+  outline: 0;
+}
+
+.two {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.two:hover {
+  box-shadow: 0 0 40px 40px #f3f70b inset;
+
+}
+
+.btn3 {
+  
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 2px solid #2e25a8;
+  border-radius: 0.7em;
+  color: #000000;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 3;
+  margin: 10px;
+  padding: 1.0em 2.0em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.btn3:hover, .btn3:focus {
+  color: rgb(243, 241, 248);
+  outline: 0;
+}
+
+.three {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.three:hover {
+  box-shadow: 0 0 40px 40px #2e25a8 inset;
+
+}
+.procurar {
+
+  box-sizing: content-box;
+  font-size: 1rem;
+  font-weight: 50;
+  line-height: 2;
+  border: 2px solid #8b8b8d;
+}
